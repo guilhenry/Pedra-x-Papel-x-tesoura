@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(68, 68, 68);
+}
+.nemi{
+    text-shadow: 1px 1px rgb(166, 166, 166);
+}
+button img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+ 
+}
+
+
+.area{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 5px;
+   padding: 50px;
+    
+}
+.visor{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.imagemplay{
+    
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+} 
+.imageresult{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.resultado{
+    font-size: 50px;
+    color: rgb(139, 255, 6);
+    text-shadow: 2px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.botoes{
+    height: 100px;
+    
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#xis{
+    display: none;
+}
